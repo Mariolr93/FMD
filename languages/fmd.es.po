@@ -758,19 +758,19 @@ msgstr "Copiar"
 
 #: tfrmdialogyn.btno.caption
 msgid "&No"
-msgstr ""
+msgstr "&No"
 
 #: tfrmdialogyn.btyes.caption
 msgid "&Yes"
-msgstr ""
+msgstr "%Si"
 
 #: tfrmdialogyn.caption
 msgid "Dialog"
-msgstr ""
+msgstr "Diálogo"
 
 #: tfrmdialogyn.lbmessage.caption
 msgid "lbMessage"
-msgstr ""
+msgstr "lbMensaje"
 
 #: timportfavorites.btcancel.caption
 msgctxt "TIMPORTFAVORITES.BTCANCEL.CAPTION"
@@ -2441,6 +2441,10 @@ msgid ""
 "\n"
 "Old folder structures will be ignored. However, if the only part you change is the drive letter (e.g. 'D:'), only the letter will be replaced. This only works for absolute paths, relative paths will be ignored."
 msgstr ""
+"Si cambias múltiples entradas al mismo tiempo, las nuevas rutas se contruirán así:\n"
+"\"{New_Path}\\{Manga_Title}\"\n"
+"\n"
+"Las estructuras de carpetas antiguas será ignorado. Sin embargo, sí la única parte que cambias es la letra de Disco (p.ej. 'D:'), solo la letra será cambiada. Esto solo funciona para rutas absolutas, las rutas relativas serán ignoradas."
 
 #: tshutdowncounterform.btabort.caption
 msgid "&Abort"
