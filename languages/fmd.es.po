@@ -15,7 +15,7 @@ msgstr ""
 #: checkupdate.rs_btncheckupdates
 msgctxt "checkupdate.rs_btncheckupdates"
 msgid "Check for latest version"
-msgstr "Revisar Última Version"
+msgstr "Comprobar Última Version"
 
 #: checkupdate.rs_currentversion
 msgid "Installed Version"
@@ -111,27 +111,27 @@ msgstr "¡Nombre de usuario o contraseña no puede estar vacio!"
 #: frmcustommessagedlg.rs_dialogconfirmation
 msgctxt "frmcustommessagedlg.rs_dialogconfirmation"
 msgid "Confirmation"
-msgstr ""
+msgstr "Confirmar"
 
 #: frmcustommessagedlg.rs_dialogcustom
 msgctxt "frmcustommessagedlg.rs_dialogcustom"
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #: frmcustommessagedlg.rs_dialogerror
 msgctxt "frmcustommessagedlg.rs_dialogerror"
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: frmcustommessagedlg.rs_dialoginformation
 msgctxt "frmcustommessagedlg.rs_dialoginformation"
 msgid "Information"
-msgstr ""
+msgstr "Información"
 
 #: frmcustommessagedlg.rs_dialogwarning
 msgctxt "frmcustommessagedlg.rs_dialogwarning"
 msgid "Warning"
-msgstr ""
+msgstr "Advertencia"
 
 #: frmimportfavorites.rs_importcompleted
 msgid "Import completed."
@@ -139,11 +139,11 @@ msgstr "Importar completado."
 
 #: frmimportfavorites.rs_importfailed
 msgid "Import could not find a suitable file."
-msgstr ""
+msgstr "Importador no pudo encontrar un archivo adecuado"
 
 #: frmimportfavorites.rs_importthreadstatus
 msgid "Importing..."
-msgstr ""
+msgstr "Importando..."
 
 #: frmimportfavorites.rs_listunimportedcaption
 msgid "List of unimported manga"
@@ -151,7 +151,7 @@ msgstr "Lista de manga sin importar"
 
 #: frmluamodulesupdater.rs_awaitingproceed
 msgid "Awaiting permission to proceed..."
-msgstr ""
+msgstr "Esperando permido para proceder..."
 
 #: frmluamodulesupdater.rs_checking
 msgctxt "frmluamodulesupdater.rs_checking"
@@ -160,16 +160,16 @@ msgstr "Revisando..."
 
 #: frmluamodulesupdater.rs_checklocalmodules
 msgid "Checking local modules..."
-msgstr ""
+msgstr "Comprobando módulos locales..."
 
 #: frmluamodulesupdater.rs_checkupdate
 msgctxt "frmluamodulesupdater.rs_checkupdate"
 msgid "Check update"
-msgstr "Revisar actualización"
+msgstr "Comprobar actualización"
 
 #: frmluamodulesupdater.rs_deletingflaggedmodules
 msgid "Deleting flagged modules..."
-msgstr ""
+msgstr "Eliminando módulos marcados..."
 
 #: frmluamodulesupdater.rs_downloadingmodule
 #, object-pascal-format
@@ -190,15 +190,17 @@ msgid ""
 "Failed to connect to GitHub API for latest module updates.\n"
 "Please try again later."
 msgstr ""
+"Error al conectar con la API de GitHub para obtener las últimas actualizaciones del módulo.\n"
+"Inténtalo de nuevo más tarde."
 
 #: frmluamodulesupdater.rs_githubconnecting
 msgid "Connecting to GitHub..."
-msgstr ""
+msgstr "Conectando con Github..."
 
 #: frmluamodulesupdater.rs_githubratestats
 #, object-pascal-format
 msgid "GitHub API core rate - call limit: %d, remaining calls: %d, used calls: %d, limit refresh: %s"
-msgstr ""
+msgstr Tasa de núcleos de la API de GitHub - límite de llamadas: %d, llamadas restantes: %d, llamadas utilizadas: %d, límite de actualización: %s
 
 #: frmluamodulesupdater.rs_modulesupdatedrestart
 msgid "Modules updated, restart now?"
@@ -407,7 +409,7 @@ msgstr "Importar"
 
 #: frmmain.rs_infoalttitles
 msgid "Alternative Title(s):"
-msgstr ""
+msgstr "Titulo(s) Alternativo(s)"
 
 #: frmmain.rs_infoartists
 msgid "Artist(s):"
@@ -619,6 +621,8 @@ msgid ""
 "Failed to detect an install of ImageMagick!\n"
 "Please install ImageMagick from www.imagemagick.org if you haven't already."
 msgstr ""
+"¡No se detectó la instalación de ImageMagick!\n"
+"Instala ImageMagick desde www.imagemagick.org si aún no lo has hecho."
 
 #: imagemagickmanager.rs_imagemagickpreferencehint
 msgctxt "imagemagickmanager.rs_imagemagickpreferencehint"
@@ -626,6 +630,8 @@ msgid ""
 "ImageMagick has been enabled!\n"
 "The following settings have been disabled because ImageMagick has taken preference."
 msgstr ""
+"¡ImageMagick se ha habilitado!\n"
+"Las siguientes configuraciones se han deshabilitado porque ImageMagick tiene preferencia."
 
 #: selfupdater.rs_buttoncancel
 msgctxt "selfupdater.rs_buttoncancel"
@@ -993,11 +999,11 @@ msgstr "<ninguno>"
 
 #: tmainform.cbimagemagickcompression.text
 msgid "None"
-msgstr ""
+msgstr "Ninguno"
 
 #: tmainform.cbimagemagicksaveas.text
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 #: tmainform.cbonlynew.caption
 msgid "Search only new manga"
@@ -1057,7 +1063,7 @@ msgstr "Habilitar Carga de Cover (Portada)"
 
 #: tmainform.cboptionenablelongnamepaths.caption
 msgid "Enable long name paths (can break most/all interaction with the file in Windows and other apps)"
-msgstr ""
+msgstr "Habilitar rutas de nombres largos (puede interrumpir la mayoría o toda la interacción con el archivo en Windows y otras aplicaciones)"
 
 #: tmainform.cboptiongeneratechapterfolder.caption
 msgid "Auto generate chapter folder"
@@ -1499,7 +1505,7 @@ msgstr "Este trabajo involucra generalmente relaciones íntimas entre mujeres."
 
 #: tmainform.ckimagemagick.caption
 msgid "Enable ImageMagick Conversion"
-msgstr ""
+msgstr "Habilitar la conversión de ImageMagick"
 
 #: tmainform.ckoptionsalwaysstarttaskfromfailedchapters.caption
 msgctxt "tmainform.ckoptionsalwaysstarttaskfromfailedchapters.caption"
@@ -1555,7 +1561,7 @@ msgstr "Buscar Título..."
 
 #: tmainform.edoptionchangeunicodecharacterstr.texthint
 msgid "Character"
-msgstr ""
+msgstr "Personaje"
 
 #: tmainform.edoptionchaptercustomrename.texthint
 msgctxt "tmainform.edoptionchaptercustomrename.texthint"
@@ -1631,7 +1637,7 @@ msgstr "Conversión de Imagen"
 
 #: tmainform.gbimagemagick.caption
 msgid "Image Magick"
-msgstr ""
+msgstr "Image Magick"
 
 #: tmainform.gboptionexternal.caption
 msgid "External program"
@@ -1666,7 +1672,7 @@ msgstr "Misceláneo"
 
 #: tmainform.lbdarkmode.caption
 msgid "Theme (requires restart to take effect):"
-msgstr ""
+msgstr "Tema (requiere reiniciar para que tenga efecto):"
 
 #: tmainform.lbdarkmodehint.caption
 msgctxt "tmainform.lbdarkmodehint.caption"
@@ -1678,6 +1684,8 @@ msgid ""
 "Only supports Windows 10 1809 and above.\n"
 "Theme's auto disable on any unsupported versions."
 msgstr ""
+"Solo compatible con Windows 10 1809 y posteriores".\n"
+"El tema se desactiva automáticamente en las versiones no compatibles".
 
 #: tmainform.lbdefaultdownloadpath.caption
 msgid "Choose the default download path:"
@@ -1759,7 +1767,7 @@ msgstr "[?]"
 #: tmainform.lbimagemagickcompression.caption
 msgctxt "tmainform.lbimagemagickcompression.caption"
 msgid "Image Compression type"
-msgstr ""
+msgstr "Tipo de compresión de imagen"
 
 #: tmainform.lbimagemagickhint.caption
 #, fuzzy
@@ -1770,12 +1778,12 @@ msgstr "[?]"
 #: tmainform.lbimagemagickquality.caption
 msgctxt "tmainform.lbimagemagickquality.caption"
 msgid "Image quality"
-msgstr ""
+msgstr "Calidad de imagen"
 
 #: tmainform.lbimagemagicksaveas.caption
 msgctxt "tmainform.lbimagemagicksaveas.caption"
 msgid "Save Image as"
-msgstr ""
+msgstr "Guardar Imagen como"
 
 #: tmainform.lbjpegquality.caption
 msgid "JPEG quality"
@@ -2120,7 +2128,7 @@ msgstr "Abrir ..."
 
 #: tmainform.midownloadredownload.caption
 msgid "Redownload"
-msgstr ""
+msgstr "Volver a descargar"
 
 #: tmainform.midownloadresume.caption
 msgid "Resume"
@@ -2724,7 +2732,7 @@ msgstr "Comprimiendo..."
 
 #: udownloadsmanager.rs_converting
 msgid "Converting..."
-msgstr ""
+msgstr "Convirtiendo..."
 
 #: udownloadsmanager.rs_disabled
 msgctxt "udownloadsmanager.rs_disabled"
@@ -2829,7 +2837,7 @@ msgstr "%s Ha %d Encontrado Manga(s)"
 
 #: uupdatethread.rs_dlgupdatelistcheckisrunning
 msgid "Update list(s) is running!"
-msgstr ""
+msgstr "¡La actualización de la lista(s) está en ejecución!"
 
 #: uupdatethread.rs_gettingdirectory
 msgid "Getting directory"
